@@ -1896,31 +1896,15 @@
 		margin-bottom: 55px;
 		-webkit-transition: box-shadow ease 2s; /* Safari */
 		transition: box-shadow ease-in 2s;
-		animation-name: box-shadowChange--largescreens;
-		animation-duration: 2s;
 		box-shadow: -20px -20px #F9B248;
 
 	}
 	
-	@keyframes box-shadowChange--largescreens {
-    from {box-shadow: 0px 0px 0px;}
-    to {box-shadow: -20px -20px #F9B248;}
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;
-	}
 	
-	@keyframes box-shadowChange--smallscreens {
-    from {box-shadow: 0px 0px 0px;}
-    to {box-shadow: -10px -13px #F9B248;}
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode: forwards;
-	}
 
 	@media screen and (max-width: 736px) {
 
 		.img-adrien {
-			animation-name: box-shadowChange--smallscreens;
-			animation-duration: 2s;
 			box-shadow: -10px -13px #F9B248;
 		}
 
