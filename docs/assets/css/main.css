@@ -3085,6 +3085,11 @@
 	.color-backdrop{
 		background-color: rgba(232,213,183, 1);
 	}
+	
+	.color-backdrop-white{
+		background-color: white !important;
+		
+	}
 
 /* Menu */
 
@@ -3291,7 +3296,11 @@
 		}
 
 /* Footer */
-
+	
+	.border-footer{
+		border: 2px solid #0E2431;
+	}
+	
 	#footer {
 		padding: 5em 0 6em 0 ;
 		background-color: #f6f6f6;
